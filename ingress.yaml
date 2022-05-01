@@ -1,3 +1,4 @@
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   annotations:
@@ -8,7 +9,6 @@ metadata:
     alb.ingress.kubernetes.io/healthcheck-path: /search
   name: nextjs
 spec:
-#  ingressClassName: alb
   rules:
   - http:
       paths:

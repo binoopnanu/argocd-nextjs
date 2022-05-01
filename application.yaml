@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: 655093420076.dkr.ecr.eu-west-2.amazonaws.com/nextjs-docker:latest
+        image: 655093420076.dkr.ecr.eu-west-2.amazonaws.com/nextjs-docker:v1
         ports:
         - containerPort: 3000
 ---
